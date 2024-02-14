@@ -226,6 +226,7 @@ set -x
 # IP stack for the host.
 # Default: If unset, defaults to ${IP_STACK}.
 # NOTE: arm64 does not support v6
+# NOTE: if IP_STACK is v6v4, do not set HOST_IP_STACK
 # Choices: "v4", "v6", "v4v6"
 #
 #export HOST_IP_STACK=v4v6
